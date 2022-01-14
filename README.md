@@ -2,7 +2,9 @@
 
 ## ***Log-Linearized Gaussian Mixture Network***
 
-ISO C++ 17 以降
+ISO C++ 17 以降  
+batch学習，online学習，TA-batch学習の動作確認済み．(TA：ターミナルアトラクト)
+
 `parameter.h`にてネットワークパラメータおよび学習識別に使用するファイルの指定する．
 
 ### Default DATA
@@ -20,7 +22,8 @@ ISO C++ 17 以降
 - input4.txt
   -- label4.txt
 
-人工データ 2ch-2class（lea:学習用，dis:テスト用，二つとも同じデータ）`comment out`
+人工データ 2ch-4class（lea:学習用，dis:テスト用，二つとも同じデータ）`comment out`  
+教師ラベルは4クラスのOne-hotベクトル列となっている．
 
 - lea_sig.csv
 - lea_T_sig.csv
