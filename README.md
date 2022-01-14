@@ -2,6 +2,7 @@
 
 ## ***Log-Linearized Gaussian Mixture Network***
 
+ISO C++ 17 以降
 `parameter.h`にてネットワークパラメータおよび学習識別に使用するファイルの指定する．
 
 ### Default DATA
